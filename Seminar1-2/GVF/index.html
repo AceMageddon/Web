@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <title>GBF</title>
+</head>
+<body>
+<h1>Good Vibes Form</h1>
+<div id="main">
+  <h3>Tell us something positive that happened to you today</h3>
+  <div class="item">
+    <label for="name">Name:</label>
+    <input id="name" type="text" size="50" placeholder="Enter your name">
+  </div>
+  <div class="item">
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="Enter your email address">
+  </div>
+  <div class="item">
+    <label for="scale">On a scale from 1-10, how good was it?:</label>
+    <input id="scale" type="int" placeholder="Enter a number between 1 and 10">
+  </div>
+  <div class="item">
+    <label for="choice">Where did this happen:</label>
+    <select id="choice">
+      <option>At home</option>
+      <option>At office</option>
+      <option>Outside</option>
+    </select>
+  </div>
+  <div class="item">
+    <label for="time">At what day did it happen:</label>
+    <span id="time">
+                <input id="M" name="sex" type="radio">
+                <label for="M">Morning</label>
+                <input id="A" name="sex" type="radio">
+                <label for="A">Afternoon</label>
+                <input id="E" name="sex" type="radio">
+                <label for="E">Evening</label>
+            </span>
+  </div>
+  <div class="item">
+    <label for="check">What feelings did you experience?</label>
+    <span id="check">
+                <label for="ex">Excited</label>
+                <input id="ex" type="checkbox">
+                <label for="hu">Humbled</label>
+                <input id="hu" type="checkbox">
+                <label for="lo">Loved</label>
+                <input id="lo" type="checkbox">
+            </span>
+  </div>
+  <div class="item">
+    <label for="list">Please describe your positive experience:</label>
+    <textarea id="list" rows="5" cols="50" placeholder="Enter your experience here"></textarea>
+  </div>
+  <button class="item" type="submit">Submit</button>
+</div>
+</body>
+</html>
